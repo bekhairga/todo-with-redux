@@ -44,8 +44,10 @@ class AddPanel extends React.Component {
                     className="btn btn-primary btn-add"
                     onClick={e => {
                         e.preventDefault();
-                        addItem(createItem(label));
-                        this.makeDefault();
+                        if (label !== "") {
+                            addItem(createItem(label));
+                            this.makeDefault();
+                        }
                     }}
                 >
                     Add
