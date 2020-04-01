@@ -1,0 +1,25 @@
+/** @format */
+
+.btn-todo {
+    width: 35px;
+    margin: 3px;
+}
+
+.todo-label {
+    width: 100%;
+    cursor: pointer;
+    user-select: none;
+}
+
+.list-element {
+    font-size: 1.25rem;
+}
+
+.list-element.important {
+    font-weight: bold;
+    color: steelblue;
+}
+
+.list-element.done {
+    text-decoration: line-through;
+}

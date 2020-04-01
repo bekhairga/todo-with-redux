@@ -1,0 +1,8 @@
+.app {
+    width: 500px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-top: 40px;
+    transform: translate(-50%)
+}
